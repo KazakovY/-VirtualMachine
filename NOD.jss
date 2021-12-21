@@ -1,18 +1,18 @@
-input 11
-input 12
+input 201
+input 202
 
 link condition
-comp 11 12
+comp 201 202
 jumpIfZero result
 less Sub
 
-sub 11 12 11
+sub 201 202 201
 jump condition
 
 link Sub
-sub 12 11 12
+sub 202 201 202
 jump condition
 
 link result
-output 11
+output 201
 exit
