@@ -1,18 +1,18 @@
-input 201
-input 202
+input 11
+input 12
 
 link condition
-comp 201 202
+comp 11 12
 jumpIfZero result
-less bSubA
+less Sub
 
-sub 201 202 201
+sub 11 12 11
 jump condition
 
-link bSubA
-sub 202 201 202
+link Sub
+sub 12 11 12
 jump condition
 
 link result
-output 201
+output 11
 exit
