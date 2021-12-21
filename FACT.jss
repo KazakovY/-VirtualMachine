@@ -18,3 +18,4 @@ jump condition
 
 link result
 output 203
+exit
